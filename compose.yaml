@@ -1,0 +1,16 @@
+services:
+  side-a:
+    build: .
+    ports:
+      - "127.0.0.1:8002:8002"
+    volumes:
+      - music:/app/data
+    environment:
+      SPOTIFY_CLIENT_ID: ${SPOTIFY_CLIENT_ID:-}
+      SPOTIFY_CLIENT_SECRET: ${SPOTIFY_CLIENT_SECRET:-}
+    init: true
+    restart: unless-stopped
+    stop_grace_period: 15s
+
+volumes:
+  music:

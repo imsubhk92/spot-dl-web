@@ -1,0 +1,7 @@
+* text=auto eol=lf
+
+# Preserve published vendor bytes and their original formatting.
+vendor/** -text -whitespace
+frontend/public/fonts/*-LICENSE.txt -text -whitespace
+# reStructuredText headings use rows of equals signs.
+vendor/**/*.rst conflict-marker-size=32

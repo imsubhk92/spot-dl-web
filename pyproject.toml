@@ -1,0 +1,28 @@
+[project]
+name = "spot-dl-web"
+version = "0.1.0"
+description = "A local Spotify library downloader built with FastAPI, React and spotDL"
+requires-python = ">=3.11,<3.16"
+dependencies = ["fastapi>=0.162,<1", "uvicorn>=0.23.2,<0.24", "spotdl>=4.6,<5", "python-dotenv>=1,<2",
+    "spotipyfree==1.9.15+sidea.1", "spotapi==1.2.8+sidea.1",
+    "yt-dlp[default]==2026.10.26+sidea.1", "ytmusicapi==1.12.4+sidea.1"]
+
+[tool.uv.sources]
+spotdl = { path = "vendor/spotdl", editable = true }
+spotipyfree = { path = "vendor/spotipyfree", editable = true }
+spotapi = { path = "vendor/spotapi", editable = true }
+yt-dlp = { path = "vendor/yt-dlp", editable = true }
+ytmusicapi = { path = "vendor/ytmusicapi", editable = true }
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "httpx>=0.28,<1", "ruff>=0.14"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py313"
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "UP", "B"]

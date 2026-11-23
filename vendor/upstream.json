@@ -1,0 +1,54 @@
+{
+  "spotdl": {
+    "version": "4.6.0",
+    "source": "https://files.pythonhosted.org/packages/25/50/810449aac58ca268dd8f64741d57464e830c2adde72a6494c902e653bd2f/spotdl-4.6.0.tar.gz",
+    "sha256": "ce1fbdecd342f870850491d5d5fb6b033547d72d7c37c9f90fd9a2dfd78a0e01",
+    "local_version": "4.6.0+sidea.1",
+    "patched_files_sha256": {
+      "pyproject.toml": "8ec56d7598456089622a0489a73fcf1438cf0620d4bc236b394413f3a1b39d2e",
+      "spotdl/_version.py": "8b8b42af0778b5a364add95bf54a7d2f63b0c648748e186070ef4419dc4d77bb",
+      "spotdl/utils/search.py": "213f63157399046a1b976f9a384fb1a9032c90149957381a67a089b6f80c6d9f"
+    }
+  },
+  "spotipyfree": {
+    "version": "1.9.15",
+    "source": "https://files.pythonhosted.org/packages/d1/05/a41699d6b6c400039044459817c1fb90a06d9074428e4330163edc4aeea6/spotipyfree-1.9.15.tar.gz",
+    "sha256": "5a5cee7e2786d1aa353068f08f0d06bdf46a442e2efcc7f2164a533cf8ec0685",
+    "local_version": "1.9.15+sidea.1",
+    "patched_files_sha256": {
+      "pyproject.toml": "95a5d50fff90545fb6aec90db8ee506bbf4b2def6b7ce33fc741f5cf0c92f75f",
+      "src/SpotipyFree/Spotify.py": "cf69c2bdae505bdc31be20379ae774183ab5c67c143b3abcbbd90546c022b069"
+    }
+  },
+  "spotapi": {
+    "version": "1.2.8",
+    "source": "https://files.pythonhosted.org/packages/d5/b6/fe67cb2df5545999ae006f7664de00f55af9ebff65783bf8abd727a0ff90/spotapi-1.2.8.tar.gz",
+    "sha256": "8535c820522e05e6959742e9e636d52a3c151b37130460ff47a46cae283577a1",
+    "local_version": "1.2.8+sidea.1",
+    "patched_files_sha256": {
+      "setup.py": "ce2d8ee7d82d792713713da77dcb1085593ba1fe4594f2dbade761eeb4f28dcd",
+      "spotapi/client.py": "f92f4a0bcff3f8191a51c8db34c7f36bacf33855d02107e698df799c56e90956",
+      "spotapi/http/request.py": "31251c0c3f47335852dd1737bec30a9d988a23e43d1ef8fafb4c2631dc015828",
+      "spotapi/_query_cache.py": "bdc4db7ba0706e4768eacfa4c6cee5d997dea798354a55adbb0a7a3f0b27cc1e"
+    }
+  },
+  "yt-dlp": {
+    "version": "2026.10.26",
+    "source": "https://files.pythonhosted.org/packages/83/31/4be3987022a6244550ab6a3afe45ad10ac10b5e5ab8874bd8eecc7f8b937/yt_dlp-2026.10.26.tar.gz",
+    "sha256": "abe5c6b94c3b2f0560500add1c42e0a97641752743a5b65588ac2007a6e23eb6",
+    "local_version": "2026.10.26+sidea.1",
+    "patched_files_sha256": {
+      "pyproject.toml": "6a523135d16f8bc7cab7116ae9588d9a04eb4552af9f25efaf58d2cb39cfe699",
+      "yt_dlp/version.py": "4f232baaf1bb11144e03c35d71a980396734b000e99dee39b5fd07dfcb7026cf"
+    }
+  },
+  "ytmusicapi": {
+    "version": "1.12.4",
+    "source": "https://files.pythonhosted.org/packages/1a/32/f43664949ae6f56dc8cae7a66724fbc49eae192488c6acf78f9a673d351f/ytmusicapi-1.12.4.tar.gz",
+    "sha256": "bb9e827aba9f9dac956583c9c9bb6de738a810721d449ab9fd4bb58457fd6d59",
+    "local_version": "1.12.4+sidea.1",
+    "patched_files_sha256": {
+      "pyproject.toml": "c5de56b5c4994dd75d7595777eeda9ae1b9c08ca7e8df7fce2fb5e792b5c298b"
+    }
+  }
+}
